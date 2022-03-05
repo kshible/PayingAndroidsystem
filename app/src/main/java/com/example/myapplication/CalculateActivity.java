@@ -25,7 +25,7 @@ public class CalculateActivity extends AppCompatActivity {
     EditText text;
 
     Button btn;
-    Button btn1;
+    Button btn1,camerazbtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,11 +44,21 @@ public class CalculateActivity extends AppCompatActivity {
           tv1=findViewById(R.id.Calculate_textView1);
         btn1=findViewById(R.id.button2);
         btn=findViewById(R.id.button);
+        camerazbtn=findViewById(R.id.btn_camera);
         final Spinner spnr=findViewById(R.id.Calculate_spinner1);
         tv1.setText("tv1value");
         text.setText("24259aaaaaaaaaaaaaaaaa");
 
+        camerazbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
+                Intent camerscreen_intent=new Intent(getBaseContext(),CameraActivity.class);
+startActivity(camerscreen_intent);
+
+
+            }
+        });
 
 
       btn1.setOnClickListener(new View.OnClickListener() {
