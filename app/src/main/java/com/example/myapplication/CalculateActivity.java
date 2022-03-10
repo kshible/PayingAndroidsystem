@@ -24,8 +24,8 @@ public class CalculateActivity extends AppCompatActivity {
       TextView tv1;
     EditText text;
 
-    Button btn;
-    Button btn1,camerazbtn;
+
+    Button btn, btn1,camerazbtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +36,6 @@ public class CalculateActivity extends AppCompatActivity {
         picker1.setMaxValue(4);
         picker1.setMinValue(0);
        // picker1.setWrapSelectorWheel(true);
-
         Toast.makeText(getBaseContext(),"oncreate",Toast.LENGTH_LONG).show();
 
 
@@ -116,6 +115,8 @@ startActivity(camerscreen_intent);
 
                     btn.setText("تغيير نمط جديد");
                   //  btn.setBackground('red');
+                   // Intent Mongo_intent=new Intent(getBaseContext(),MongoActivity.class);
+                   // startActivity(Mongo_intent);
               }
                   else
               {

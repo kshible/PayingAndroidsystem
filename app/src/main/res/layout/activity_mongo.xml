@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/activity_camera_scene"
+    tools:context=".MongoActivity">
+
+    <Button
+        android:id="@+id/Mongo_btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="قاعدة بيانات مانجو" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/Mongo_txt_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+
+
+
+
+
+</LinearLayout>

@@ -19,4 +19,5 @@
         <item>علي</item>
         <item>تامر</item>
     </string-array>
+    <string name="title_activity_mongo">MongoActivity</string>
 </resources>

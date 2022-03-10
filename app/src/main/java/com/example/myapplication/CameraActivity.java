@@ -17,12 +17,16 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 public class CameraActivity extends AppCompatActivity {
-Button btn_gitpicture_l ,btn_image;
+Button btn_gitpicture_l ,btn_image,btn_Return_pr;
 ImageView iMges;
+
+
 
 //ActivityResultLauncher<intent> mGetContent;
 ActivityResultLauncher<Intent>mGetContent;
 ActivityResultLauncher<String> mgitimages;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +35,19 @@ ActivityResultLauncher<String> mgitimages;
         btn_gitpicture_l=findViewById(R.id.btn_gitpicture);
         btn_image=findViewById(R.id.btn_images);
         iMges=findViewById(R.id.imageView);
+
+        btn_Return_pr=findViewById(R.id.btn_Return);
+
+
+        btn_Return_pr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent Retrnto_MongoActivity=new Intent();
+                Retrnto_MongoActivity.putExtra("Rabc",1002003);
+                setResult(24259,Retrnto_MongoActivity);
+                finish();
+            }
+        });
 
 
 
