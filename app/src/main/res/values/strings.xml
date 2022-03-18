@@ -20,4 +20,6 @@
         <item>تامر</item>
     </string-array>
     <string name="title_activity_mongo">MongoActivity</string>
+    <string name="aaaa">قاعدة بيانات مانجو</string>
+    <string name="test1">test1</string>
 </resources>
