@@ -1,6 +1,8 @@
 package com.example.myapplication;
 
-public class Posts {
+import java.io.Serializable;
+
+public class Posts implements Serializable {
     private String name;
     private String date;
     private  String body;
@@ -8,6 +10,12 @@ public class Posts {
     private int follwing;
     private int posts;
     private int img;
+
+
+
+
+
+
     public Posts(String name, String date, String body, int follower, int follwing, int posts) {
         this.name = name;
         this.date = date;

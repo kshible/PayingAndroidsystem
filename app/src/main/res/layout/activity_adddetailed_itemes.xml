@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".adddetailedItemesActivity">
+
+
+    <EditText
+        android:id="@+id/adddetailedItemesActivity_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:hint="name.."
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/adddetailedItemesActivity_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:hint="date.."
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/adddetailedItemesActivity_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:hint="body.."
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/adddetailedItemesActivity_follower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:hint="follower.."
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/adddetailedItemesActivity_follwing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:hint="follwing.."
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/adddetailedItemesActivity_posts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:hint="posts.."
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/adddetailedItemesActivity_btn_addpost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Button" />
+</LinearLayout>
+

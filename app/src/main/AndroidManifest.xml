@@ -10,13 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.Light">
         <activity
+            android:name=".adddetailedItemesActivity"
+            android:exported="false" />
+        <activity
             android:name=".ListingActivity"
             android:exported="true" />
-
-
-
-
-
         <activity
             android:name=".ertActivity"
             android:exported="false" />
@@ -32,8 +30,6 @@
         <activity
             android:name=".CalculateActivity"
             android:exported="false" />
-
-
     </application>
 
 </manifest>
