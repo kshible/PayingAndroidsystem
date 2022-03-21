@@ -22,10 +22,12 @@ public class ListingActivity extends AppCompatActivity {
 
         //public Posts(String name, String date, String body, int follower, int follwing, int posts) {
 
-        posts.add(new Posts("kshible","novamber 3 2022","ddddd",1000,254,1515));
+        posts.add(new Posts("kshibleaaaa","novamber 3 2022","ddddd",100,254,1515));
+        posts.add(new Posts("kshible1","novamber 3 2022","ddddd",1520,254,1515));
+        posts.add(new Posts("kshible2","novamber 3 2022","ddddd",106,254,1515));
 
 
-       PostAdapter adapterr=new PostAdapter(this,R.layout.costom_post_layout,posts);
+       PostAdapter adapterr=new PostAdapter(this,R.layout.activity_gridz,posts);
        lv_pr.setAdapter(adapterr);
 
     }
